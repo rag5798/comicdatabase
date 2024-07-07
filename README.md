@@ -1,38 +1,32 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+I did this project to understand mor eabout interacting with a database outside of MYSQL Workbench, specifically Python.
 
-{Provide a description of the software that you wrote and how it integrates with a SQL Relational Database. Describe how to use your program.}
+I made a terminal interface that uses python to connect to the sqlite database. 
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of how created the Relational Database.}
+I wanted to make this to keep track of my comic collection easier. Eventually I want to make it a website that I can access anywhere.
 
 [Software Demo Video](https://www.youtube.com/watch?v=QNnDwvxN4eI)
 
 # Relational Database
 
-{Describe the relational database you are using.}
+I used SQLite database to hold my data.
 
-{Describe the structure (tables) of the relational database that you created.}
+I made a user table to hold my username and passsword. A comic table to hold all the comic data. The comic has the series in a differnt table that links to them. I also have a series table that holds the name and foriegn keys linking publisher name and volume number.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+I used VScode as my environment and github to store my data.
 
-{Describe the programming language that you used and any libraries.}
+I used SQL queries to make the database and python for interacting with the user.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [W3Schools SQL Tutorials](https://www.w3schools.com/mysql/default.asp)
+- [SQLite in Python Tutorial](https://codefather.tech/blog/sqlite-database-python/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Make a GUI Interface
+- Make a Website Interface
+- Fix Structure to include things I need in the future
